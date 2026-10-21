@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez Idlefus et visitez notre site officiel pour en savoir plus.">
+  <meta name="theme-color" content="#0b1120">
+  <title>Idlefus | Site officiel</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      color: #f8fafc;
+      background: radial-gradient(ellipse at 50% 20%, #1e3a5f 0%, #0b1120 58%, #060a13 100%);
+      text-align: center;
+    }
+    main { width: 100%; max-width: 600px; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 32px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      color: #071120;
+      font-weight: 900;
+    }
+    .eyebrow {
+      margin: 0 0 14px;
+      color: #7dd3fc;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 8vw, 4.7rem);
+      line-height: 1.08;
+      letter-spacing: -.055em;
+    }
+    h1 span { color: #7dd3fc; }
+    .description {
+      max-width: 480px;
+      margin: 24px auto 32px;
+      color: #b9c6d8;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 0 27px;
+      border-radius: 12px;
+      background: #7dd3fc;
+      color: #082032;
+      text-decoration: none;
+      font-weight: 750;
+      transition: background .2s, transform .2s;
+    }
+    .button:hover, .button:focus-visible {
+      background: #bae6fd;
+      transform: translateY(-2px);
+    }
+    .url { margin-top: 18px; color: #92a6be; font-size: .9rem; }
+    footer {
+      position: absolute;
+      bottom: 24px;
+      color: #8190a8;
+      font-size: .8rem;
+    }
+    @media (max-height: 540px) { footer { position: static; margin-top: 50px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><span class="brand-mark" aria-hidden="true">I</span> IDLEFUS</div>
+    <p class="eyebrow">Notre site officiel</p>
+    <h1>Découvrez <span>Idlefus.</span></h1>
+    <p class="description">Bienvenue sur la page GitHub d’Idlefus ! Rendez-vous sur notre site officiel pour découvrir notre univers.</p>
+    <a class="button" href="https://idlefus.com/" target="_blank" rel="noopener noreferrer">Visiter Idlefus →</a>
+    <p class="url">idlefus.com</p>
+  </main>
+  <footer>© Idlefus · Tous droits réservés.</footer>
+</body>
+</html>
