@@ -1,1 +1,1 @@
-# Idlefus
+[Idlefus](http://idlefus.com/)
